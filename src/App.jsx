@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   async function btnClick ()  {
-      const res = await axios.post('http://localhost:5000/user', undefined , {withCredentials:true})
+      const res = await axios.post('https://cookie-test-weld.vercel.app/user', undefined , {withCredentials:true})
       console.log(res)
   }
   return (
