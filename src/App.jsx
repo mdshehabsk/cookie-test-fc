@@ -17,7 +17,8 @@ const apiCallWithFetch = async () => {
     method:'POST',
     body:JSON.stringify({}),
     headers:{
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
     },
     credentials:'include'
   })
