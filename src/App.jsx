@@ -6,7 +6,8 @@ import "./App.css";
     "https://cookie-test-mu.vercel.app/user", {}, {
       withCredentials:true,
       headers:{
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
       }
     }
   );
@@ -18,7 +19,7 @@ const apiCallWithFetch = async () => {
     body:JSON.stringify({}),
     headers:{
       'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*'
+      
     },
     credentials:'include'
   })
