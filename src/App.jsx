@@ -15,7 +15,7 @@ import "./App.css";
 const apiCallWithFetch = async () => {
   const res = await fetch('https://cookie-test-mu.vercel.app/user',{
     method:'POST',
-    body:undefined,
+    body:JSON.stringify({}),
     headers:{
       'Content-Type': 'application/json'
     },
