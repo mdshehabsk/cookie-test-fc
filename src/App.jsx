@@ -26,7 +26,8 @@ const apiCallWithFetch = async () => {
 }
 function App() {
   async function btnClick() {
-   apiCallWithFetch()
+  //  apiCallWithFetch()
+  apiCallWithAxios()
   }
   return (
     <div className="App">
