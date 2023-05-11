@@ -30,6 +30,7 @@ function App() {
   async function btnClick() {
   //  apiCallWithFetch()
   apiCallWithAxios()
+  // this is api call with axios
   }
   return (
     <div className="App">
