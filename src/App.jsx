@@ -21,8 +21,8 @@ const apiCallWithFetch = async () => {
     },
     credentials:'include'
   })
-  // const data = await res.json()
-  console.log(res)
+  const data = await res.json()
+  console.log(data)
 }
 function App() {
   async function btnClick() {
